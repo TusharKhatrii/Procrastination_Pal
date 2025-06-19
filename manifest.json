@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Procrastination Pal",
+  "version": "1.0.0",
+  "description": "A Chrome extension that calculates YouTube playlist duration.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ]
+}
